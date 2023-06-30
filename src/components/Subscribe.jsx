@@ -21,6 +21,8 @@ const Subscribe = () => {
       setWindowWidth(window.innerWidth);
     }
 
+  handleWidth();
+    
     window.addEventListener('resize',handleWidth);
 
 
